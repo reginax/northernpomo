@@ -28,7 +28,7 @@ Grammar.
 This list view combines images, English and Northern Pomo glosses, and audio files to present all the information necessary to for self-guided vocabulary learning. (Source: www.ling.upenn.edu/~gene/Kashaya/Vocabulary/index.html)
 
 ### Assessment 
-I considered a quiz when I read about the importance of every lesson having an assessment portion. In wanting to incorporate the audio files, I thought of having the user see a word, produce it verbally and check with the audio. But the mobile app for Northern Pomo actually has as Quiz section that’s absent on the website. In this version, the user sees 3 pictures and an audio recording is played for which the user must select the matching picture or word. I think a matching quiz or game like this would be useful on the website. (Source: http://eddersko.com/assets/KoPaquetteBuckleyOConnorSAIL2015Slides.pdf)
+I considered a quiz when I read about the importance of every lesson having an assessment portion. In wanting to incorporate the audio files, I thought of having the user see a word, produce it verbally and check with the audio. The mobile app for Northern Pomo actually has as Quiz section that’s absent on the website. Similarly, in this webpage version, the user sees 3 pictures and an audio recording is played for which the user must select the matching picture or word. (Source: http://eddersko.com/assets/KoPaquetteBuckleyOConnorSAIL2015Slides.pdf)
 
 ## Models & Methodologies 
 The main models and methodologies that I am using to develop this project
