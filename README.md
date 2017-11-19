@@ -10,7 +10,6 @@ materials for those seeking to learn about or revive Northern Pomo culture and l
 - contribute to digitization efforts of documentation materials
 - add missing components of teaching methodology like assessments
 
-## Content 
 The reason that I consider this project to be appropriate for this language situation is how this is
 a way to add accessible learning materials transformed from academic documentation. Since
 there are no more native speakers, the main connection to the language is from written work by
@@ -18,12 +17,20 @@ linguists and the more recent efforts to digitize these materials. For anyone wi
 connection to or academic interest in learning Northern Pomo, the main entry way is thus
 technology that is both accessible and accommodating to different knowledge levels.
 
+## Content
 The conceptual content of my project is: two web pages that feature vocabulary list and
 comprehension-check components requiring the user to match audio recordings to gloss
 Other rich linguistic content includes information on phonology and morphology, verbs and TAM, and other grammatical
 content that are referenced from Catherine O’Connor’s Topics on Northern Pomo
 Grammar.
-### Models & Methodologies 
+
+### Vocabulary List 
+This list view combines images, English and Northern Pomo glosses, and audio files to present all the information necessary to for self-guided vocabulary learning. (Source: www.ling.upenn.edu/~gene/Kashaya/Vocabulary/index.html)
+
+### Assessment 
+I considered a quiz when I read about the importance of every lesson having an assessment portion. In wanting to incorporate the audio files, I thought of having the user see a word, produce it verbally and check with the audio. But the mobile app for Northern Pomo actually has as Quiz section that’s absent on the website. In this version, the user sees 3 pictures and an audio recording is played for which the user must select the matching picture or word. I think a matching quiz or game like this would be useful on the website. (Source: http://eddersko.com/assets/KoPaquetteBuckleyOConnorSAIL2015Slides.pdf)
+
+## Models & Methodologies 
 The main models and methodologies that I am using to develop this project
 are
 1. Communication-Based Language Instruction or CBI’s 5-step lesson plan helped me
