@@ -2,7 +2,7 @@
 ## Overview
 This repository contains webpages (at https://reginax.github.io/northernpomo/) with tools and information for learning Northern Pomo vocabulary and grammar. The template I am using is from http://eddersko.github.io/web-template for which there is an existing website at http://northernpomolanguagetools.com for the Northern Pomo language based in Mendocino County, California.
 
-## Goals 
+## Goals
 My main goal is to contribute new resources and tools absent on the existing Northern Pomo website for language learning. The reason that I am motivated to make efforts for language revitalization for Northern Pomo is due to the urgency for reviving this dormant language and ensuring that the
 documentation efforts since the 1980s are made accessible and repurposed into learning
 materials for those seeking to learn about or revive Northern Pomo culture and language. My specific project goals are to:
@@ -23,14 +23,14 @@ comprehension-check components requiring the user to match audio recordings to g
 Other rich linguistic content includes information on phonology and morphology, verbs and TAM, and other grammatical
 content that are referenced from Catherine O’Connor’s Topics on Northern Pomo
 Grammar.
+ss
+### Vocabulary List
+Under the Vocabulary section is a list view that combines images, English and Northern Pomo glosses, and audio files to present all the information necessary to for self-guided vocabulary learning. (Source: www.ling.upenn.edu/~gene/Kashaya/Vocabulary/index.html)
 
-### Vocabulary List 
-This list view combines images, English and Northern Pomo glosses, and audio files to present all the information necessary to for self-guided vocabulary learning. (Source: www.ling.upenn.edu/~gene/Kashaya/Vocabulary/index.html)
+### Assessment
+I considered a quiz when I read about the importance of every lesson having an assessment portion. In wanting to incorporate the audio files, I thought of having the user see a word, produce it verbally and check with the audio. The mobile app for Northern Pomo actually has as Quiz section that’s absent on the website. Similarly, in this webpage version under the Assessments section, the user sees 3 pictures and an audio recording is played for which the user must select the matching picture or word. (Source: http://eddersko.com/assets/KoPaquetteBuckleyOConnorSAIL2015Slides.pdf)
 
-### Assessment 
-I considered a quiz when I read about the importance of every lesson having an assessment portion. In wanting to incorporate the audio files, I thought of having the user see a word, produce it verbally and check with the audio. The mobile app for Northern Pomo actually has as Quiz section that’s absent on the website. Similarly, in this webpage version, the user sees 3 pictures and an audio recording is played for which the user must select the matching picture or word. (Source: http://eddersko.com/assets/KoPaquetteBuckleyOConnorSAIL2015Slides.pdf)
-
-## Models & Methodologies 
+## Models & Methodologies
 The main models and methodologies that I am using to develop this project
 are
 1. Communication-Based Language Instruction or CBI’s 5-step lesson plan helped me
