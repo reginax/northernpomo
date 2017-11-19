@@ -1,11 +1,9 @@
 # Linguistics 154 Project: Online Learning for Northern Pomo
 ## Overview
-This repository contains pages created with the template (at
-http://eddersko.github.io/web-template/) with new material aimed at vocabulary and grammar development for learners of the Northern Pomo language based in Mendocino County, California. The website can be accessed at reginax.github.io/northernpomo
+This repository contains webpages (at https://reginax.github.io/northernpomo/) with tools and information for learning Northern Pomo vocabulary and grammar. The template I am using is from http://eddersko.github.io/web-template for which there is an existing website at http://northernpomolanguagetools.com for the Northern Pomo language based in Mendocino County, California.
 
 ## Goals 
-The main reason that I am motivated to make efforts for language revitalization for this speech
-community is due to the urgency for reviving this dormant language and ensuring that the
+My main goal is to contribute new resources and tools absent on the existing Northern Pomo website for language learning. The reason that I am motivated to make efforts for language revitalization for Northern Pomo is due to the urgency for reviving this dormant language and ensuring that the
 documentation efforts since the 1980s are made accessible and repurposed into learning
 materials for those seeking to learn about or revive Northern Pomo culture and language. My specific project goals are to:
 - provide accessible tools and resources for first-time learners of Northern Pomo
