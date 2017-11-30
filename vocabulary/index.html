@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="css/fontello.css" charset="utf-8" />
     <link href='http://fonts.googleapis.com/css?family=League+Script|Lato:100,300,700,900' rel='stylesheet' type='text/css'>
     <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <script src="js/sorttable.js"></script>
     <script src="js/my.js"></script>
     <script>
         support = !! (document.createElement('audio').canPlayType);
@@ -153,19 +154,19 @@
                     <input type="button" id="create" value="Animals" onclick="Javascript:loadCategory(animals)"> -->
 
                     <!-- Sound matrix starts here... -->
-                    <table class="searchable sortable" width="100%" height="400px">
+                    <table class="sortable" width="100%" height="400px">
                         <!-- Table Header starts here... -->
                       <thead>
                           <tr>
                             <!--When a header is clicked, run the sortTable function, with a parameter. -->
-                            <th onclick="sortTable(0)">English</th>
-                            <th onclick="sortTable(1)">Northern Pomo</th>
-                            <th onclick="sortTable(2)">Speaker</th>
-                            <th onclick="sortTable(3)">Category</th>
+                            <th class="header">English</th>
+                            <th class="header">Northern Pomo</th>
+                            <th class="header">Speaker</th>
+                            <th class="header">Category</th>
                           </tr>
                       </thead>
-                        <!-- Table Row #1 starts here... -->
                       <tbody>
+                        <!-- ANIMALS -->
                         <tr>
                             <td>bobcat</td>
                             <td class="click_sound" onclick="audio('bobcat_AL.wav')">dalob</td>
@@ -174,18 +175,16 @@
                         </tr>
                         <tr>
                             <td>bumblebee</td>
-                            <td class="click_sound" onclick="audio('bumblebee_2_AL.wav')">jehe</td>
+                            <td class="click_sound" onclick="audio('bumblebee_AL.wav')">jehe</td>
                             <td>AL</td>
                             <td>animals</td>
                         </tr>
-
                         <tr>
                             <td class="eng">coyote</td>
                             <td class="click_sound" onclick="audio('coyote_AL.wav')">diwi</td>
                             <td>AL</td>
                             <td>animals</td>
                         </tr>
-
                         <tr>
                             <td class="eng">deer</td>
                             <td class="click_sound" onclick="audio('deer_EC.wav')">bishe</td>
@@ -200,7 +199,7 @@
                         </tr>
                         <tr>
                             <td class="eng">dove</td>
-                            <td class="click_sound" onclick="audio('dove_2_AL.wav')">ma:yu</td>
+                            <td class="click_sound" onclick="audio('dove_AL.wav')">ma:yu</td>
                             <td>AL</td>
                             <td>animals</td>
                         </tr>
@@ -212,7 +211,7 @@
                         </tr>
                         <tr>
                             <td class="eng">valley quail</td>
-                            <td class="click_sound" onclick="audio('shakaaka_valley_quail.mp3')">shaka:ka</td>
+                            <td class="click_sound" onclick="audio('quail_ES.mp3')">shaka:ka</td>
                             <td>ES</td>
                             <td>animals</td>
                         </tr>
@@ -224,30 +223,39 @@
                         </tr>
                         <tr>
                             <td class="eng">rabbit</td>
-                            <td class="click_sound" onclick="audio('rabbit_AL.wav')">ko:ji</td>
+                            <td class="click_sound" onclick="audio('rabbit_AL.wav')">shako:do</td>
                             <td>AL</td>
                             <td>animals</td>
                         </tr>
+
+                        <!-- TRADITIONAL ITEMS -->
                         <tr>
                             <td class="eng">arrow</td>
-                            <td class="click_sound" onclick="audio('rabbit_AL.wav')">shako:do</td>
+                            <td class="click_sound" onclick="audio('arrow_EC.wav')">ts'u:</td>
                             <td>EC</td>
                             <td>traditional items</td>
                         </tr>
                         <tr>
                             <td class="eng">basket</td>
-                            <td class="click_sound" onclick="audio('pig_EC.wav')">ko:ji</td>
+                            <td class="click_sound" onclick="audio('basket_EC.wav')">pʰik'a</td>
                             <td>EC</td>
                             <td>traditional items</td>
                         </tr>
                         <tr>
                             <td class="eng">baby basket</td>
-                            <td class="click_sound" onclick="audio('pig_EC.wav')">ko:ji</td>
-                            <td>EC</td>
+                            <td class="click_sound" onclick="audio('baby_basket_ES.mp3')">tsiʔka</td>
+                            <td>ES</td>
                             <td>traditional items</td>
-                        </tr><tr>
+                        </tr>
+                        <tr>
+                            <td class="eng">pack basket</td>
+                            <td class="click_sound" onclick="audio('pack_basket_CO.wav')">ts'oy</td>
+                            <td>CO</td>
+                            <td>traditional items</td>
+                        </tr>
+                        <tr>
                             <td class="eng">pounding basket</td>
-                            <td class="click_sound" onclick="audio('rabbit_AL.wav')">shako:do</td>
+                            <td class="click_sound" onclick="audio('pounding_basket_EC.wav')">mije</td>
                             <td>EC</td>
                             <td>traditional items</td>
                         </tr>
@@ -265,37 +273,37 @@
                         </tr>
                         <tr>
                             <td class="eng">weaving a twined basket</td>
-                            <td class="click_sound" onclick="audio('rabbit_AL.wav')">shako:do</td>
+                            <td class="click_sound" onclick="audio('to_weave_(twined_basket)_EC.wav')">jaman</td>
                             <td>EC</td>
                             <td>traditional items</td>
                         </tr>
                         <tr>
                             <td class="eng">bead</td>
-                            <td class="click_sound" onclick="audio('pig_EC.wav')">ko:ji</td>
+                            <td class="click_sound" onclick="audio('bead_EC.wav')">kal</td>
                             <td>EC</td>
                             <td>traditional items</td>
                         </tr>
                         <tr>
                             <td class="eng">bone awl</td>
-                            <td class="click_sound" onclick="audio('ditsiya_bone_awl.mp3')">ditsiya</td>
+                            <td class="click_sound" onclick="audio('bone_awl_ES.mp3')">ditsiya</td>
                             <td>ES</td>
                             <td>traditional items</td>
                         </tr>
                         <tr>
                             <td class="eng">bow</td>
-                            <td class="click_sound" onclick="audio('bow.wav')">shiʔemay</td>
-                            <td>ES</td>
+                            <td class="click_sound" onclick="audio('bow_EC.wav')">shiʔemay</td>
+                            <td>EC</td>
                             <td>traditional items</td>
                         </tr>
                         <tr>
                             <td class="eng">mush paddle</td>
-                            <td class="click_sound" onclick="audio('mush_paddle_clean_ES.wav')">kuja:da</td>
+                            <td class="click_sound" onclick="audio('mush_paddle_ES.wav')">kuja:da (From Spanish cuchara)</td>
                             <td>ES</td>
                             <td>traditional items</td>
                         </tr>
                         <tr>
                             <td class="eng">necklace</td>
-                            <td class="click_sound" onclick="audio('necklace.wav')">kʰu pʰimaʔ</td>
+                            <td class="click_sound" onclick="audio('necklace_ES.wav')">kʰu pʰimaʔ</td>
                             <td>ES</td>
                             <td>traditional items</td>
                         </tr>
@@ -311,13 +319,106 @@
                             <td>ES</td>
                             <td>traditional items</td>
                         </tr>
+
+                        <!-- HOUSEHOLD ITEMS -->
                         <tr>
-                            <td class="eng">baby basket</td>
-                            <td class="click_sound" onclick="audio('whistle.wav')">ko:ji</td>
-                            <td>ES</td>
-                            <td>traditional items</td>
+                            <td class="eng">blanket</td>
+                            <td class="click_sound" onclick="audio('blanket_EC.wav')">bat'a</td>
+                            <td>EC</td>
+                            <td>household items</td>
                         </tr>
-                      <!-- ...Table Row #6 ends here. -->
+                        <tr>
+                            <td class="eng">clock</td>
+                            <td class="click_sound" onclick="audio('clock_EC.wav')">da</td>
+                            <td>EC</td>
+                            <td>household items</td>
+                        </tr>
+                        <tr>
+                            <td class="eng">door</td>
+                            <td class="click_sound" onclick="audio('basket_EC.wav')">da:w</td>
+                            <td>EC</td>
+                            <td>household items</td>
+                        </tr>
+                        <tr>
+                            <td class="eng">dress</td>
+                            <td class="click_sound" onclick="audio('dress_EC.wav')">t̪unka</td>
+                            <td>EC</td>
+                            <td>household items</td>
+                        </tr>
+                        <tr>
+                            <td class="eng">dress (2 pronunciations by ES; variation stems from it being a loanword from Spanish túnica 'tunic')</td>
+                            <td class="click_sound" onclick="audio('dress_1.wav)">t̪unku</td>
+                            <td class="click_sound" onclick="audio('dress_2.wav)">t̪unikaʔ</td>
+                            <td>household items </td>
+                        </tr>
+                        <tr>
+                            <td class="eng">glasses</td>
+                            <td class="click_sound" onclick="audio('eyeglasses_ES.mp3')">ʔuy-dit̪ emaʔ</td>
+                            <td>ES</td>
+                            <td>household items</td>
+                        </tr>
+                        <tr>
+                            <td class="eng">fence</td>
+                            <td class="click_sound" onclick="audio('fence_EC.wav')">selka(From Spanish for fence: cerca)</td>
+                            <td>EC</td>
+                            <td>household items</td>
+                        </tr>
+                        <tr>
+                            <td class="eng">hat</td>
+                            <td class="click_sound" onclick="audio('hat_ES.wav')">shina:dibo:maʔ</td>
+                            <td>ES</td>
+                            <td>household items</td>
+                        </tr>
+                        <tr>
+                            <td class="eng">house</td>
+                            <td class="click_sound" onclick="audio('house_ES.mp3')">ja</td>
+                            <td>ES</td>
+                            <td>household items</td>
+                        </tr>
+                        <tr>
+                            <td class="eng">key</td>
+                            <td class="click_sound" onclick="audio('key_ES.wav')">ya:wayʔ (From Spanish llave)</td>
+                            <td>ES</td>
+                            <td>household items</td>
+                        </tr>
+                        <tr>
+                            <td class="eng">pistol</td>
+                            <td class="click_sound" onclick="audio('pistol_ES.wav')">pist̪ol</td>
+                            <td>ES</td>
+                            <td>household items</td>
+                        </tr>
+                        <tr>
+                            <td class="eng">gun, rifle</td>
+                            <td class="click_sound" onclick="audio('rifle_ES.wav')">kopent̪a</td>
+                            <td>ES</td>
+                            <td>household items</td>
+                        </tr>
+                        <tr>
+                            <td class="eng">purse</td>
+                            <td class="click_sound" onclick="audio('purse_ES.wav')">holay</td>
+                            <td>ES</td>
+                            <td>household items</td>
+                        </tr>
+                        <tr>
+                            <td class="eng">quilt</td>
+                            <td class="click_sound" onclick="audio('quilt_ES.mp3')">shats'on</td>
+                            <td>ES</td>
+                            <td>household items</td>
+                        </tr>
+                        <tr>
+                            <td class="eng">pestle</td>
+                            <td class="click_sound" onclick="audio('pestle_EC.wav')">dako:</td>
+                            <td>EC</td>
+                            <td>household items</td>
+                        </tr>
+                        <tr>
+                            <td class="eng">whistle</td>
+                            <td class="click_sound" onclick="audio('whistle.wav')">libu:</td>
+                            <td>ES</td>
+                            <td>household items</td>
+                        </tr>
+
+                      <!-- FOOD -->
                       </tbody>
                     </table>
                     <!-- ...sound matrix ends here. -->

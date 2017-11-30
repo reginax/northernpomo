@@ -58,9 +58,10 @@ $(document).ready(function() {
         url : folder,
         success: function (data) {
             $(data).find("a").attr("href", function (i, val) {
-                if( val.match(/\.(wav|mp3)$/) ) {
-                    $("body").append( "<img src='"+ folder + val +"'>" );
 
+                $(console.log(data));
+                if( val.match(/\.(wav|mp3)$/) ) {
+                    $("body").append( val);
                 }
             });
         }
@@ -90,19 +91,27 @@ function loadCategory(category) {
     stock[3] = new Array("Numbers", "88.625", "85.50", "85.81", "990")
     stock[4] = new Array("Requests", "88.625", "85.50", "85.81", "991")
 
-    //TABLE COLUMNS
-    var tr = document.createElement('TR');
-    tableBody.appendChild(tr);
-    for (i = 0; i < heading.length; i++) {
-        var th = document.createElement('TH')
-        th.width = '75';
-        th.appendChild(document.createTextNode(heading[i]));
-        tr.appendChild(th);
-    }
-
     //TABLE ROWS
     for (i = 0; i < stock.length; i++) {
         var tr = document.createElement('TR');
+        var res = stock[i].split("_"); // eng_np_speaker
+
+        // Add eng
+        var td = document.createElement('TD');
+        td.appendChild(document.createTextNode(res[0]));
+        tr.append(td);
+
+        // Add NP
+        np = res[1].replace(/-/g, ' ');
+        var td = document.createElement('TD');
+        td.appendChild("<td class="click_sound" onclick="audio('o_weave_(wicker_basket)_EC.wav')">jaman</td>"
+        tr.append(td);
+
+        // Add speaker
+        var td = document.createElement('TD');
+        td.appendChild(document.createTextNode(res[-1]));
+        tr.append(td);
+
         for (j = 0; j < stock[i].length; j++) {
             var td = document.createElement('TD')
             td.appendChild(document.createTextNode(stock[i][j]));
