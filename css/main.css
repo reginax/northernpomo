@@ -153,13 +153,24 @@ a.pure-button-primary {
 }
 
 /* This is the main heading that appears on the blue section */
-.splash-head {
+/*.splash-head {
     text-transform: uppercase;
-    color: #333333;
-    line-height: 1.6;
+
+    line-height: 1.2;
     letter-spacing: 0.05em;
     padding: 0em 1.6em 0em 1.6em;
+}*/
+.splash-head {
+    font-size: 20px;
+    font-weight: bold;
+    color: #333333;
+    border: 3px solid white;
+    padding: 1em 1.6em;
+    font-weight: 100;
+    border-radius: 5px;
+    line-height: 1em;
 }
+
 /*.menu {
   text-align: center;
 }
@@ -176,11 +187,16 @@ a.menu   {
   opacity: 0.9;
 }
 /* This is the subheading that appears on the blue section */
-.splash-subhead {
-    color: green;
+/*.splash-subhead {
     font-weight: bold;
     letter-spacing: 0.05em;
     padding: 0em 1.6em 0em 1.6em;
+}*/
+.splash-subhead {
+
+    color: green;
+    letter-spacing: 0.05em;
+    opacity: 0.8;
 }
 
 /*
