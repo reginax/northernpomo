@@ -144,7 +144,7 @@ $headers = 'From: '.$email_from."\r\n".
 <li class="name">
 <h1>
 <a href="../">
-Back to Main Menu
+Back to Menu
 </a>
 </h1>
 </li>

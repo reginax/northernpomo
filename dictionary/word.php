@@ -149,7 +149,7 @@ $table = $table . "<tr><td class=\"source\" colspan=\"2\"><center>" . $source . 
                 <li class="name">
                     <h1>
                   <a href="../">
-                    Back to Main Menu
+                    Back to Menu
                   </a>
                 </h1>
                 </li>
