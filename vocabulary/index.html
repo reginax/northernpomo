@@ -14,13 +14,14 @@
     <link rel="stylesheet" type="text/css" href="css/fontello.css" charset="utf-8" />
     <link href='http://fonts.googleapis.com/css?family=League+Script|Lato:100,300,700,900' rel='stylesheet' type='text/css'>
     <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <script src="js/my.js"></script>
     <script>
         support = !! (document.createElement('audio').canPlayType);
         if (support) clips = [];
 
         // plays sound file
-        function ipa(sound) {
-            if (!clips[sound]) clips[sound] = new Audio('sounds/' + sound + '.wav');
+        function audio(sound) {
+            if (!clips[sound]) clips[sound] = new Audio('../sounds/' + sound + '.wav');
             clips[sound].play();
         }
     </script>
@@ -36,7 +37,7 @@
                 <li class="name">
                     <h1>
                   <a href="../">
-                    Back to Main Menu
+                    Back to Menu
                   </a>
                 </h1>
                 </li>
@@ -64,90 +65,93 @@
     <!-- Sounds Section starts here... -->
     <a id="sounds"></a>
         <div id="intro">
-            <div class="content">
-                <div id="profile">
-                    <!-- Image goes here. -->
-                    <img src="../placeholder.png" alt="Profile Photo">
-                </div>
-                <div class="single-col">
-
-                    <div class="text">
-                        <h4>Vocabulary</h4>
-                        <!-- Paragraph #1 -->
-                        <p align="justify">[Todo: background on audio files and ways to use this resource]<p/>
+          <div class="content">
+              <div class="single-col">
+                  <div id="profile">
+                      <!-- Image goes here. -->
+                      <img src="../basket.jpg" alt="Profile Photo">
+                  </div>
+                  <h4>Vocabulary List</h4>
+                  <div class="text">
+                    <!-- Paragraph #3 -->
+                    <p align="justify">The table below contains the a list view of the words at the <a href=“northernpomolanguagetools.com/qr_codes/“>QR Codes</a> page on Northern Pomo Language Tools with the audio files retrieved from <a href=“www.gracehudsonmuseum.org“>the Grace Hudson Museum</a>. Click the Northern Pomo word to hear the corresponding word pronounciation. Click on a column header to sort by that column.</p>
                     </div>
-                </div>
-                <div id="arrow">
-                    <a href="#matrix" class="smoothScroll">
-                        <div class="icon-down-open-big">
-                        </div>
-                    </a>
-                </div>
-            </div>
+                    <div id="arrow">
+                      <a href="#vocab" class="smoothScroll">
+                          <div class="icon-down-open-big">
+                          </div>
+                      </a>
+                  </div>
+              </div>
+          </div>
         </div>
         <!-- ...Sounds Section ends here. -->
 
         <!-- Sound Matrix Section starts here... -->
         <a id="matrix"></a>
-        <div id="sounds">
+        <div id="vocab">
             <div class="content">
                 <div class="single-col">
                     <br>
                     <!-- Paragraph #2 -->
                     <p align="justify">The table below contains 4 columns where each word contains an image, English and Northern Pomo translations, and category. The translations can be clicked to play an accompanying sound file of the word spoken by a native speaker. </p>
+                    <!-- <h2>Select a category</h2>
+                    <input type="button" id="create" value="Animals" onclick="Javascript:loadCategory(animals)"> -->
 
                     <!-- Sound matrix starts here... -->
                     <table width="100%" height="400px">
+                        <!-- Table Header starts here... -->
+                      <thead>
+                          <tr>
+                            <th class="header">English</th>
+                            <th class="header">Northern Pomo</th>
+                            <th class="header">Speaker</th>
+                            <th class="header">Category</th>
+                          </tr>
+                      </thead>
                         <!-- Table Row #1 starts here... -->
+                      <tbody>
                         <tr>
-                            <td class="click_sound" onclick="ipa('a')">a</td>
-                            <td class="click_sound" onclick="ipa('b')">b</td>
-                            <td class="click_sound" onclick="ipa('c')">c</td>
-                            <td class="click_sound" onclick="ipa('d')">d</td>
-                            <td class="click_sound" onclick="ipa('e')">e</td>
+                            <td>bobcat</td>
+                            <td class="click_sound" onclick="audio('bobcat_AL')">dalob</td>
+                            <td></td>
+                            <td>animals</td>
                         </tr>
-                        <!-- ...Table Row #1 ends here. -->
-                        <!-- Table Row #2 starts here... -->
                         <tr>
-                            <td class="click_sound" onclick="ipa('f')">f</td>
-                            <td class="click_sound" onclick="ipa('g')">g</td>
-                            <td class="click_sound" onclick="ipa('h')">h</td>
-                            <td class="click_sound" onclick="ipa('i')">i</td>
-                            <td class="click_sound" onclick="ipa('j')">j</td>
+                            <td>bumblebee</td>
+                            <td class="click_sound" onclick="audio('bumblebee_2_AL')">jehe</td>
+                            <td></td>
+                            <td>animals</td>
                         </tr>
-                        <!-- ...Table Row #2 ends here. -->
-                        <!-- Table Row #3 starts here... -->
+
                         <tr>
-                            <td class="click_sound" onclick="ipa('k')">k</td>
-                            <td class="click_sound" onclick="ipa('l')">l</td>
-                            <td class="click_sound" onclick="ipa('m')">m</td>
-                            <td class="click_sound" onclick="ipa('n')">n</td>
-                            <td class="click_sound" onclick="ipa('o')">o</td>
+                            <td class="eng">coyote</td>
+                            <td class="click_sound" onclick="audio('coyote_AL')">diwi</td>
+                            <td></td>
+                            <td>animals</td>
                         </tr>
-                        <!-- ...Table Row #3 ends here. -->
-                        <!-- Table Row #4 starts here... -->
+
                         <tr>
-                            <td class="click_sound" onclick="ipa('p')">p</td>
-                            <td class="click_sound" onclick="ipa('q')">q</td>
-                            <td class="click_sound" onclick="ipa('r')">r</td>
-                            <td class="click_sound" onclick="ipa('s')">s</td>
-                            <td class="click_sound" onclick="ipa('t')">t</td>
+                            <td class="eng">deer</td>
+                            <td class="click_sound" onclick="audio('deer_EC')">bishe</td>
+                            <td></td>
+                            <td>animals</td>
                         </tr>
-                        <!-- ...Table Row #4 ends here. -->
-                        <!-- Table Row #5 starts here... -->
+
                         <tr>
-                            <td class="click_sound" onclick="ipa('u')">u</td>
-                            <td class="click_sound" onclick="ipa('v')">v</td>
-                            <td class="click_sound" onclick="ipa('w')">w</td>
-                            <td class="click_sound" onclick="ipa('x')">x</td>
-                            <td class="click_sound" onclick="ipa('y')">y</td>
+                            <td class="eng">dove</td>
+                            <td class="click_sound" onclick="audio('dove_2_AL')">ma:yu</td>
+                            <td></td>
+                            <td>animals</td>
                         </tr>
-                        <!-- ...Table Row #5 ends here. -->
-                        <!-- Table Row #6 starts here... -->
                         <tr>
-                            <td class="click_sound" onclick="ipa('z')">z</td>
+                            <td class="eng">dog</td>
+                            <td class="click_sound" onclick="audio('dog_AL')">hayu</td>
+                            <td></td>
+                            <td>animals</td>
                         </tr>
-                        <!-- ...Table Row #6 ends here. -->
+                      <!-- ...Table Row #6 ends here. -->
+                      </tbody>
                     </table>
                     <!-- ...sound matrix ends here. -->
 
@@ -161,28 +165,6 @@
             </div>
         </div>
     <!-- ...Sound Matrix Section ends here. -->
-
-    <!-- Vowels and Consonants Section starts here... -->
-    <a id="v_c"></a>
-    <div id="v_c">
-        <div class="content">
-            <div class="single-col">
-                <div id="profile">
-                    <!-- Image goes here. -->
-                    <img src="../placeholder.png" alt="Profile Photo">
-                </div>
-                <h4>Vowels and Consonants</h4>
-                <div class="text">
-                <!-- Paragraph #3 -->
-                <p align="justify">Consectetuer consectetuer neque, sem ultrices. Tortor et interdum tristique, maecenas malesuada justo in velit fermentum, lorem sed amet. Eget bibendum posuere mollis id in malesuada, risus amet, tristique velit vitae. Rhoncus massa, lobortis eget nulla non a tincidunt facilisis, elit pellentesque urna vestibulum enim tincidunt fusce.</p></div>
-                                <div id="arrow">
-                    <a href="#videos" class="smoothScroll">
-                        <div class="icon-down-open-big">
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
     </div>
     <!-- ...Vowels and Consonants Section ends here. -->
     <!-- Videos Section starts here... -->
@@ -281,5 +263,4 @@
     </script>
 
 </body>
-
 </html>
