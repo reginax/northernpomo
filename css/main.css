@@ -128,7 +128,7 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background-image: url('../bg.jpg');
+    background-image: url('../mendocino.jpg');
     background-size:cover;
     z-index: 1;
     overflow: hidden;
@@ -161,10 +161,11 @@ a.pure-button-primary {
     padding: 0em 1.6em 0em 1.6em;
 }*/
 .splash-head {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     color: #333333;
-    padding: 1em;
+    border: 3px solid white;
+    padding: 1em 1.6em;
     font-weight: 100;
     border-radius: 5px;
     line-height: 1em;
@@ -181,10 +182,10 @@ a.menu   {
 
 .menu { color: black; text-decoration: none; padding: 1em 1.6em; }
 .menu:hover { color: #D0A18B; text-decoration: none; }
-.box {
+/*.box {
   background:white;
   opacity: 0.9;
-}
+}*/
 /* This is the subheading that appears on the blue section */
 /*.splash-subhead {
     font-weight: bold;
