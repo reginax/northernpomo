@@ -479,57 +479,15 @@ body {
     width: 100%;
     opacity: 10%;
     background-color: grey;
-}   
-#v_c {
-    width: 100%;
-    background-color: grey;
-    color: white;
+    /*background-image: url('bg.jpg'); 
+    background-size:cover;
+    z-index: 1;
+    overflow: hidden;*/
 }
 #sounds {
     width: 100%;
     background-color: white;
     color: #474747;
-}
-#skills {
-    width: 100%;
-    background-color: #b0ddce;
-}
-#contact {
-    width: 100%;
-    background-color: white;
-    color: #474747;
-}
-#copyright {
-    width: 100%;
-    background-color: #474747;
-    color: white;
-}
-.mail-text:after {
-    content: "ek684";
-    font-weight: 700;
-    letter-spacing: 3.5px;
-    font-size: 10pt;
-    line-height: 0;
-    text-transform: uppercase;
-    padding-left: 20px;
-}
-.twitter-text:after {
-    content: "Twitter";
-    font-weight: 700;
-    letter-spacing: 3.5px;
-    font-size: 10pt;
-    line-height: 0;
-    text-transform: uppercase;
-    padding-left: 20px;
-}
-.linkedin-text:after {
-    content: "LinkedIn";
-    font-weight: 700;
-    letter-spacing: 3.5px;
-    font-size: 10pt;
-    line-height: 0;
-    text-transform: uppercase;
-    padding-left: 20px;
 }
 #sounds p {
     font-size: 1.15rem;

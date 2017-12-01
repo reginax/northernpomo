@@ -55,6 +55,12 @@ body {
 a:hover {
     cursor: pointer;
 }
+.hero {
+  background: url("../../bg.jpg");
+  background-size: cover;
+  box-shadow: inset 0px 0px 0 2000px rgba(0, 0, 0, 0.15);
+  height: 40%;
+}
 img {
     max-width: 100%;
     height: auto;
@@ -74,7 +80,7 @@ img {
     background: #A34719;
 }
 .exp {
-    font-family: 'Times';
+    font-family: "Lato", serif;
     font-size: 1.1rem!important;
     color: white!important;
     display: block;
@@ -2406,7 +2412,7 @@ meta.foundation-mq-topbar {
 .panel li,
 .panel dl {
     color: black;
-    font-family: 'Times'
+    font-family: "Lato", serif;
 }
 .panel h1,
 .panel h2,
@@ -3285,7 +3291,7 @@ a img {
 /* Default paragraph styles */
 
 p {
-    font-family: 'Times';
+    font-family: "Lato", serif;
     font-weight: normal;
     font-size: 1.125rem;
     line-height: 1.6;
@@ -3351,7 +3357,7 @@ h6 {
     color: #6f6f6f;
     font-weight: normal;
     margin-top: 0.2rem;
-    font-family: 'Times';
+    font-family: "Lato", serif;
     margin-bottom: 0.5rem;
 }
 td {
@@ -3537,11 +3543,11 @@ blockquote p {
         font-size: 1.6875rem;
     }
     h4 {
-        font-family: 'Times';
+        font-family: "Lato", serif;
         font-size: 1.4375rem;
     }
     h5 {
-        font-family: 'Times';
+        font-family: "Lato", serif;
         font-size: 1.125rem;
     }
     h6 {
@@ -3817,35 +3823,35 @@ ul.pagination li {
     font-weight: bold;
     text-transform: uppercase;
 }
-/* 
-  Mixin: accordion-container() 
+/*
+  Mixin: accordion-container()
 
   Decription: Responsible for the container component of accordions, generating styles relating to a margin of zero and a clearfix
 
-  Explicit Dependencies: a clearfix mixin *is* defined. 
+  Explicit Dependencies: a clearfix mixin *is* defined.
 
-  Implicit Dependencies: None 
+  Implicit Dependencies: None
 
 */
 
 /*
   Mixin: accordion-navigation( $bg, $hover-bg, $active-bg, $padding, $active_class,  $font-color, $font-size, $font-family){
-  
+
     @params $bg-color: [ color or string ]: Specify the background color for the navigation element
     @params $hover-bg-color [ color or string ]: Specify the background color for the navigation element when hovered
-    @params $active-bg [ color or string ]: Specify the background color for the navigation element when clicked and not released. 
-    @params $active_class [ string ]: Specify the class name used to keep track of which accordion tab should be visible 
-    @params $font-color [ color or string ]: Color of the font for accordion 
-    @params $font-size [ number ]: Specifiy the font-size of the text inside the navigation element 
+    @params $active-bg [ color or string ]: Specify the background color for the navigation element when clicked and not released.
+    @params $active_class [ string ]: Specify the class name used to keep track of which accordion tab should be visible
+    @params $font-color [ color or string ]: Color of the font for accordion
+    @params $font-size [ number ]: Specifiy the font-size of the text inside the navigation element
     @params $font-family [ string ]: Specify the font family for the text of the navigation of the accorion
 */
 
 /*
 
-  Mixin: accordion-content($bg, $padding, $active-class) 
-    @params $padding [ number ]: Padding for the content of the container 
-    @params $bg [ color  ]: Background color for the content when it's visible 
-    @params $active_class [ string ]: Class name used to keep track of which accordion tab should be visible. 
+  Mixin: accordion-content($bg, $padding, $active-class)
+    @params $padding [ number ]: Padding for the content of the container
+    @params $bg [ color  ]: Background color for the content when it's visible
+    @params $active_class [ string ]: Class name used to keep track of which accordion tab should be visible.
 */
 
 .accordion {

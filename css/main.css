@@ -128,7 +128,7 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background-image: url('../mendocino.jpg'); /*linear-gradient(to bottom, transparent, white), */
+    background-image: url('../mendocino.jpg'); 
     background-size:cover;
     z-index: 1;
     overflow: hidden;

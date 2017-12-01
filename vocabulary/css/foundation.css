@@ -2429,7 +2429,7 @@ meta.foundation-mq-topbar {
 .panel li,
 .panel dl {
     color: black;
-    font-family: 'Times'
+    font-family: "Lato", serif;
 }
 .panel h1,
 .panel h2,
@@ -3358,7 +3358,7 @@ h1 {
     font-size: 2.125rem;
 }
 h2 {
-    font-family: 'Times';
+    font-family: "Lato", serif;
     font-size: 1.6875rem;
 }
 h3 {
@@ -3388,7 +3388,7 @@ td, th {
     color: #6f6f6f;
     font-weight: normal;
     margin-top: 0.2rem;
-    font-family: 'Times';
+    font-family: "Lato", serif;
     margin-bottom: 0.5rem;
 }
 td {
@@ -3573,11 +3573,11 @@ blockquote p {
         font-size: 1.6875rem;
     }
     h4 {
-        font-family: 'Times';
+        font-family: "Lato", serif;
         font-size: 1.4375rem;
     }
     h5 {
-        font-family: 'Times';
+        font-family: "Lato", serif;
         font-size: 1.125rem;
     }
     h6 {
