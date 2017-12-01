@@ -161,10 +161,9 @@ a.pure-button-primary {
     padding: 0em 1.6em 0em 1.6em;
 }*/
 .splash-head {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: #333333;
-    border: 3px solid white;
     padding: 1em 1.6em;
     font-weight: 100;
     border-radius: 5px;
@@ -193,7 +192,6 @@ a.menu   {
     padding: 0em 1.6em 0em 1.6em;
 }*/
 .splash-subhead {
-
     color: green;
     letter-spacing: 0.05em;
     opacity: 0.8;
