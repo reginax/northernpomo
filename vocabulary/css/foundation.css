@@ -3381,7 +3381,7 @@ tr, th {
 td, th {
     display: table-cell;
     vertical-align: inherit;
-    padding: 2em;
+    padding: 1.5em;
 }
 .subheader {
     line-height: 1.4;
