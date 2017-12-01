@@ -80,7 +80,7 @@ img {
     background: #A34719;
 }
 .exp {
-    font-family: "Lato", serif;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 1.1rem!important;
     color: white!important;
     display: block;
@@ -2412,7 +2412,7 @@ meta.foundation-mq-topbar {
 .panel li,
 .panel dl {
     color: black;
-    font-family: "Lato", serif;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 }
 .panel h1,
 .panel h2,
@@ -3291,7 +3291,7 @@ a img {
 /* Default paragraph styles */
 
 p {
-    font-family: "Lato", serif;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: normal;
     font-size: 1.125rem;
     line-height: 1.6;
@@ -3357,7 +3357,7 @@ h6 {
     color: #6f6f6f;
     font-weight: normal;
     margin-top: 0.2rem;
-    font-family: "Lato", serif;
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     margin-bottom: 0.5rem;
 }
 td {
@@ -3543,11 +3543,11 @@ blockquote p {
         font-size: 1.6875rem;
     }
     h4 {
-        font-family: "Lato", serif;
+        font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
         font-size: 1.4375rem;
     }
     h5 {
-        font-family: "Lato", serif;
+        font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
         font-size: 1.125rem;
     }
     h6 {
