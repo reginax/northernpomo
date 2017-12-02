@@ -62,8 +62,8 @@ body {
 
 .content {
     text-align: center;
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-    font-weight: 100;
+    font-family: "Lato", serif;
+    font-weight: 300;
     font-size: 14pt;
     width: 65%;
     padding-top: 25px;
@@ -72,8 +72,6 @@ body {
     margin-right: auto;
 }
 .content h5 {
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-    font-weight: 300;
     letter-spacing: 3.5px;
     font-size: 10pt;
     margin-bottom: -5px;
@@ -82,7 +80,6 @@ body {
 /* line 121, ../sass/styles.scss */
 
 .content h3 {
-    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-weight: 400;
     font-size: 64pt;
     line-height: 0;
