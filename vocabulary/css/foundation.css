@@ -3308,7 +3308,7 @@ a img {
 /* Default paragraph styles */
 
 p {
-    font-family: 'Roboto';
+    font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 1.125rem;
     line-height: 1.6;
     text-align: justify;
