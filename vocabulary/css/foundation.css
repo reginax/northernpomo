@@ -103,7 +103,6 @@ img {
     top: 0px;
     position: fixed;
     width: 100%;
-    border-bottom: 10px solid #FFF;
 }
 #map_canvas img,
 #map_canvas embed,
@@ -133,9 +132,6 @@ img {
 .antialiased {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-.title {
-  background-image:url('nature.jpg')
 }
 img {
     display: inline-block;
@@ -1758,7 +1754,7 @@ meta.foundation-mq-topbar {
     color: white;
 }
 .top-bar-section ul li.active > a:hover {
-    background: #FFAD33;
+    background: #008cba;
     color: white;
 }
 .top-bar-section .has-form {
@@ -3298,13 +3294,13 @@ td {
 /* Default Link Styles */
 
 a {
-    color: #FFAD33;
+    color: #008cba;
     text-decoration: none;
     line-height: inherit;
 }
 a:hover,
 a:focus {
-    color: #FFCC80;
+    color: #0d75a9;
 }
 a img {
     border: none;
@@ -3375,7 +3371,7 @@ h6 {
     font-size: 1rem;
 }
 tr, th {
-    font-weight: 500;
+    font-weight: 300;
     font-size: 110%!important;
 }
 td, th {
@@ -5330,9 +5326,9 @@ table thead {
 }
 table thead tr th,
 table thead tr td {
-    padding: 2rem;
+    padding: 1.5rem;
     font-size: 0.875rem;
-    font-weight: bold;
+    font-weight: 500;
     color: #222222;
 }
 table tfoot {

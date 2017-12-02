@@ -223,7 +223,6 @@ body {
     clear: right;
 }
 /* line 242, ../sass/styles.scss */
-
 .spacer {
     width: 1.9%;
     height: 150px;
@@ -478,8 +477,8 @@ body {
 #intro {
     width: 100%;
     opacity: 10%;
-    background-color: grey;
-    /*background-image: url('bg.jpg'); 
+    background-color: #333333;
+    /*background-image: url('bg.jpg');
     background-size:cover;
     z-index: 1;
     overflow: hidden;*/

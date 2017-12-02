@@ -85,6 +85,8 @@ img {
     color: white;
     box-shadow: 0px;
 }
+.resource { color: #0d75a9; text-decoration: none; }
+.resource:hover { text-decoration: underline; }
 .click_sound:active {
     background: #555555;
 }
@@ -103,7 +105,6 @@ img {
     top: 0px;
     position: fixed;
     width: 100%;
-    border-bottom: 10px solid #FFF;
 }
 #map_canvas img,
 #map_canvas embed,

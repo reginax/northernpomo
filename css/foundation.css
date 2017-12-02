@@ -8,9 +8,11 @@
     color:gray;
     text-align: center;
 }
-
 #menu .menu { color: black; text-decoration: none; }
 #menu .menu:hover { color: gray; text-decoration: none; }
+
+#menu .menu, .resource { color: black; text-decoration: none; }
+#menu .menu:hover, .resource { color: gray; text-decoration: none; }
 
 meta.foundation-version {
   font-family: "/5.2.3/"; }

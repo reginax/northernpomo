@@ -128,7 +128,7 @@ a.pure-button-primary {
  */
 
 .splash-container {
-    background-image: url('../mendocino.jpg'); 
+    background-image: url('../mendocino.jpg');
     background-size:cover;
     z-index: 1;
     overflow: hidden;
@@ -169,9 +169,13 @@ a.pure-button-primary {
     border-radius: 5px;
     line-height: 1em;
 }
-
-.menu { color: black; text-decoration: none; padding: 1em 1.6em; }
-.menu:hover { color: #D0A18B; text-decoration: none; }
+.resource { color: #008cba; text-decoration: none; }
+.resource:hover,
+.resource:focus {
+    color: #0d75a9;
+}
+.menu{ color: black; text-decoration: none; padding: 1em 1.6em; }
+.menu:hover{ color: #D0A18B; text-decoration: none; }
 /* This is the subheading that appears on the blue section */
 .splash-subhead {
     color: #D0A18B;
