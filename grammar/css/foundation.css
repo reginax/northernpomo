@@ -3313,7 +3313,7 @@ a img {
 
 p {
     font-family: 'Roboto';
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     line-height: 1.6;
     text-align: justify;
     margin-bottom: 1.25rem;
@@ -3362,6 +3362,8 @@ h2 {
     font-size: 1.6875rem;
 }
 h3 {
+    padding:1.5em;
+    font-family:'Roboto';
     font-size: 1.375rem;
 }
 h4 {
