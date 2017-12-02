@@ -90,11 +90,9 @@ body {
 /* line 129, ../sass/styles.scss */
 
 .content h4 {
-    color: white;
     font-size: 2rem;
 }
 #intro p {
-    color: white;
     font-weight: 300;
     font-size: 1.13rem;
 }
@@ -471,7 +469,7 @@ body {
 #intro {
     width: 100%;
     opacity: 10%;
-    background-color: #333333;
+    background-color: #f4eee5;
     /*background-image: url('bg.jpg');
     background-size:cover;
     z-index: 1;
